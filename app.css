@@ -1,0 +1,434 @@
+body, html, *{
+    padding: 0%;
+    margin: 0%;
+    
+}
+*{
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+.whole{
+    width: 100%;
+    height: 100%;
+}
+
+/* header styliing */
+
+.headshaft{
+height: 6rem;
+background-color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+color: white;
+padding: 1.5rem;        
+}
+.headshaft>h2{
+    font-size: xx-large;
+}
+.list{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    font-size: large;
+    letter-spacing: 1.08;
+    padding-right: 3rem;
+    text-transform: capitalize;
+}
+.active{
+    text-decoration: underline tomato solid 3px;
+}
+.login{
+    text-transform: capitalize;
+    font-size: large;
+}
+.headshaft>button{
+    height: 3rem;
+    width: 10rem;
+    text-transform: capitalize;
+    margin-top: auto;
+    margin-left: 3rem;
+    background-color: tomato;
+    color: #f2f2f2;
+    font-size: x-large;
+    text-align: center;
+    border: none;
+}
+/* home styling */
+
+.homeshaft{
+    width: 100%;
+    height: 100vh;
+    background:url(./images/image\ 1.png);
+    background-size: cover;
+    background-position:100% 100%;
+    background-repeat: no-repeat;
+}
+.firsthomeshaft{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: flex;
+}
+.firstcontents{
+    color: black;
+    letter-spacing: 1.08;
+    line-height: 1.08;
+    display: flex;
+    flex-direction: column;
+}
+.firstcontents>h2{
+    font-size: 50px;
+    padding-top: 6rem;
+    width: 50%;
+    font-weight: bolder;
+}
+.firstcontents>p{
+    width: 40%;
+    padding-top: 1rem;
+    font-size: large;
+    font-weight: 550;
+}
+.firstcontents>button{
+    margin-top: 2rem;
+    height: 5rem;
+    background-color: tomato;
+    color: #f2f2f2;
+    width: 15%;
+    font-size: x-large;
+    font-weight: 600;
+    border: none;
+}
+
+.secondcontents>img{
+ right: 4rem;
+ top:8rem;   
+ position: absolute;
+}
+.secondhomeshaft{
+    position: absolute;
+    background-color: #f2f2f2;
+    height: 8rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 35rem;
+    right: 12%;
+    bottom: -17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2rem 0px 2rem;
+}
+.pluscontents{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: medium;
+}
+.pluscontents>p:nth-child(1){
+    text-align: center;
+    padding-bottom: 5px;
+}
+/* section stling */
+
+.largesection{
+    width:100%;
+    height: 100% ;
+    display: flex;
+    flex-direction: column;
+}
+.firstsection{
+    height: 400px;
+    display: flex;
+    padding: 4rem 4rem 0rem 4rem;
+}
+.leftfirstsection{
+    width: 45%;
+    margin-top: 2rem;
+}
+.leftfirstsection>h2{
+    font-size: xx-large;
+}
+.leftfirstsection>p{
+    line-height: 1.08;
+    letter-spacing: 1.08;
+    width: 90%;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 2%;
+    text-align: left;
+}
+.rightfirstsection{
+    width: 70%;
+    padding-left: 10px;
+}
+.rightfirstsection>img{
+    width: 100%;
+}
+.wee{
+    height: 3px;
+    background-color: tomato;
+    width: 95px;
+    margin-top: 5px;
+}
+.secondlargesection{
+    height:300px;
+    text-align: center;
+
+}
+.secondlargesection>h2{
+    font-size: xx-large;
+    letter-spacing: 1.08;
+    line-height: 1.2;
+}
+.secondlargesection>p{
+    line-height: 1.08;
+    text-align: center !important;
+    letter-spacing: 1.08;
+    width: 35%;
+    margin: auto;
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 2%;
+    text-align: left;
+}
+.wee2{
+    height: 3px;
+    background-color: tomato;
+    width: 95px;
+    position: absolute;
+    left: 45%;
+    margin-top: 5px;
+}
+
+/* third section styling */
+
+.thirdlargesection{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    flex-direction: column;
+}
+.thirdlargefirst{
+    display: flex;
+    flex-direction: column;
+}
+.thirdlargefirst>h2{
+    font-size: xx-large;
+    text-transform: capitalize;
+    letter-spacing: 1.2;
+}
+.thirdlargefirst>div{
+    height: 3px;
+    background-color: tomato;
+    width: 95px;
+    margin-top: 5px;
+}
+.sec>div{
+    height: 3px;
+    background-color: tomato;
+    width: 60px !important;
+    margin-top: 5px;
+}
+
+.thirdlist1grid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-gap: 10px !important;
+    margin-top: 2rem;
+}
+.thirditemcontiner>img{
+    width: 70%;
+}
+.thirditemcontiner>h3{
+    font-size: medium;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.thirditemcontiner>p{
+    font-size: medium;
+    padding-top: 5px;
+}
+
+
+/* fourth section styling */
+
+
+.fourthlargesection{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    flex-direction: column;
+}
+
+.seeall1{
+    font-size: xx-large;
+    text-transform: capitalize;
+    margin-top: 3rem;
+    text-align: right;
+    margin-right: 5rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+.wee3{
+    height: 3px;
+    background-color: tomato;
+    width: 45px;
+    position: absolute;
+    right: 14%;
+    margin-top: 5px;
+}
+.seeall1>div>a{
+    color: tomato;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+/* styling of rating */
+.secondlarge{
+    height: 100vh;
+    padding: 0rem 4rem 0rem 4rem;
+}
+.secondlarge>h2{
+    margin-top: 1rem;
+    font-size: xx-large;
+}
+.threegrid{
+    display: grid;
+    margin-top: 5rem;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap:25px;
+}
+.enclosethreegrid{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    height: 25rem;
+}
+.star{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 50px;
+    text-align: center;
+}
+.star>a{
+    padding: 0rem 5px 0rem 5px;
+    color: tomato;
+}
+.unique{
+    color: rgb(175, 175, 175) !important;
+}
+.enclosethreegrid>h2{
+    text-align: center;
+    font-size: x-large;
+}
+.threegridlast{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.threegridlast>img{
+    width: 15%;
+}
+.threegridlast>h3{
+    font-size: large;
+    font-weight: 600;
+}
+.wee4{
+    height: 3px;
+    background-color: tomato;
+    width: 65px;
+    position: absolute;
+    right: 21.5%;
+    margin-top: 5px;
+}
+.footerupper{
+    height: 250px;
+    background-color: black;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footerupper>h2{
+    padding-bottom: 10px;
+}
+.footerupper>p{
+    padding-bottom: 2rem;
+}
+.footerupper>div{
+    height: 40px;
+}
+.footerupper>div>input{
+    height: 100%;
+    padding: 1rem;
+    width: 250px;
+}
+.footerupper>div>input::placeholder{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.footerupper>div>button{
+    height: 100%;
+    background-color: tomato;
+    color: #f2f2f2;
+    width: 100px;
+}
+.br{
+    height:3px;
+    width: 100%;
+}
+.footerbelow{
+    height: 500px;
+    background-color: black;
+}
+.footertwo{
+    display: flex;
+    width: 100%;
+    color: #f2f2f2;
+    padding: 3rem 4rem 0rem 2rem;
+}
+.twoleft>h2{
+    margin-bottom: 1rem;
+}
+.twoleft>p{
+    margin-bottom: 1rem;
+    width: 42%;
+}
+.in{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    margin-bottom: 1rem;
+}
+.ig{
+    display: flex;
+    margin-top: 1rem;
+}
+.ig>img{
+    width: 18%;
+    margin-right: 2rem;
+    border-radius: 5px;
+    filter: invert(1);
+}
+.tworight{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+.a>h2{
+    margin-bottom: 1rem;
+}
+.a>p{
+    margin-bottom: 2rem;
+    font-weight: lighter;
+    font-size: small;
+}
