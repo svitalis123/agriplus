@@ -432,3 +432,33 @@ padding: 1.5rem;
     font-weight: lighter;
     font-size: small;
 }
+.igw{
+    background-color: #f2f2f2;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-right: 10px;
+}
+.play{
+    margin-right: 10px;
+}
+.play2{
+    display: flex;
+    flex-direction: column;
+}
+.play>a{
+    color: black;
+    font-size: larger;
+}
+.play2>p{
+    font-size: x-small;
+    font-weight: 600;
+    color: black;
+}
+.play2>h2{
+    font-size: large;
+    color: black;
+}
